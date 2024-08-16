@@ -1,0 +1,9 @@
+﻿  game.c
+D:\jisuanji\repos\Project2\Project2\game.c(12,18): warning C4305: “=”: 从“int”到“char”截断
+  test.c
+  正在生成代码
+  3 of 16 functions (18.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Project2.vcxproj -> D:\jisuanji\repos\Project2\x64\Release\Project2.exe

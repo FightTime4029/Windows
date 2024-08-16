@@ -1,0 +1,16 @@
+﻿  game.c
+D:\jisuanji\repos\saolei_game\saolei_game\game.h(1,1): warning C4828: 文件包含在偏移 0x1e2 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  test.c
+D:\jisuanji\repos\saolei_game\saolei_game\game.h(1,1): warning C4828: 文件包含在偏移 0x1e2 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+D:\jisuanji\repos\saolei_game\saolei_game\test.c(14,12): warning C4133: “函数”: 从“int [11][11]”到“char (*)[11]”的类型不兼容
+D:\jisuanji\repos\saolei_game\saolei_game\test.c(15,12): warning C4133: “函数”: 从“int [11][11]”到“char (*)[11]”的类型不兼容
+D:\jisuanji\repos\saolei_game\saolei_game\test.c(17,10): warning C4133: “函数”: 从“int [11][11]”到“char (*)[11]”的类型不兼容
+D:\jisuanji\repos\saolei_game\saolei_game\test.c(18,15): warning C4133: “函数”: 从“int [11][11]”到“char (*)[11]”的类型不兼容
+D:\jisuanji\repos\saolei_game\saolei_game\test.c(20,13): warning C4133: “函数”: 从“int [11][11]”到“char (*)[11]”的类型不兼容
+D:\jisuanji\repos\saolei_game\saolei_game\test.c(20,19): warning C4133: “函数”: 从“int [11][11]”到“char (*)[11]”的类型不兼容
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+D:\jisuanji\repos\saolei_game\saolei_game\game.c(110): warning C4716: “Fined_Mine”: 必须返回一个值
+  All 15 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  saolei_game.vcxproj -> D:\jisuanji\repos\saolei_game\x64\Release\saolei_game.exe

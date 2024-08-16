@@ -1,0 +1,3 @@
+﻿  test.cpp
+D:\jisuanji\repos\vector\vector\test.cpp(49,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  vector.vcxproj -> D:\jisuanji\repos\vector\x64\Debug\vector.exe

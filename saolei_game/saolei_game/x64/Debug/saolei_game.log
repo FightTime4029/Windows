@@ -1,0 +1,4 @@
+﻿  game.c
+D:\jisuanji\repos\saolei_game\saolei_game\game.h(1,1): warning C4828: 文件包含在偏移 0x1e2 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+D:\jisuanji\repos\saolei_game\saolei_game\game.c(101): warning C4716: “Fined_Mine”: 必须返回一个值
+  saolei_game.vcxproj -> D:\jisuanji\repos\saolei_game\x64\Debug\saolei_game.exe

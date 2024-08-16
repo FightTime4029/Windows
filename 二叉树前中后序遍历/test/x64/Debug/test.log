@@ -1,0 +1,4 @@
+﻿  test.c
+D:\jisuanji\repos\test\test\test.c(40,24): warning C4047: “函数”:“TreeNode *”与“TreeNode **”的间接级别不同
+D:\jisuanji\repos\test\test\test.c(40,24): warning C4024: “TreeHight”: 形参和实参 1 的类型不同
+  test.vcxproj -> D:\jisuanji\repos\test\x64\Debug\test.exe
