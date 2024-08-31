@@ -24,6 +24,7 @@
     <ProjectGuid>{59c57af7-993c-4639-9fdc-c2a9cb4f7ee9}</ProjectGuid>
     <RootNamespace>AVLTree</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>AVLTree and RBTree</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,6 +129,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AVLTree.hpp" />
+    <ClInclude Include="mymap.hpp" />
+    <ClInclude Include="myset.hpp" />
+    <ClInclude Include="RBTree.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp" />
