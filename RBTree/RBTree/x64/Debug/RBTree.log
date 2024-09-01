@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\jisuanji\repos\windows\RBTree\RBTree\test.cpp(30,3): error C2660: “RBTree<int,int,sxj::map<int,int>::MapOfK>::Insert”: 函数不接受 2 个参数
+D:\jisuanji\repos\windows\RBTree\RBTree\RBTree.h(80,7): message : 参见“RBTree<int,int,sxj::map<int,int>::MapOfK>::Insert”的声明
+D:\jisuanji\repos\windows\RBTree\RBTree\test.cpp(30,3): message : 尝试匹配参数列表“(int, int)”时

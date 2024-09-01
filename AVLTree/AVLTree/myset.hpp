@@ -1,26 +1,47 @@
 #pragma once
-#include <iostream>
-#include "RBTree.h"
 
-namespace sxj
+#include "RBTree.hpp"
+
+
+namespace bit
 {
 	template<class K>
 	class set
 	{
-	public:
-		struct SetOfK
+		struct SetKeyOfT
 		{
 			const K& operator()(const K& key)
 			{
 				return key;
 			}
 		};
+	public:
+		typedef typename RBTree<K, K, SetKeyOfT>::iterator iterator;
 
-		bool Insert(const K& k)
+		iterator begin()
 		{
-			return _t->Insert(k);
+			return _t.begin();
+		}
+
+		iterator end()
+		{
+			return _t.end();
+		}
+
+		bool insert(const K& key)
+		{
+			return _t.Insert(key);
 		}
 	private:
-		RBTree<K, K,SetOfK>* _t;
+		RBTree<K, K, SetKeyOfT> _t;
 	};
+	void testset()
+	{
+		set<int> s;
+		s.insert(1);
+		s.insert(2);
+		s.insert(3);
+
+	}
 }
+

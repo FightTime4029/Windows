@@ -18,7 +18,7 @@
     <ClInclude Include="AVLTree.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="RBTree.h">
+    <ClInclude Include="RBTree.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="mymap.hpp">

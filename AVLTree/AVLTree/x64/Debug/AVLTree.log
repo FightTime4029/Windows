@@ -1,3 +1,49 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(AVLTree.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(AVLTree and RBTree.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
   test.cpp
-  AVLTree.vcxproj -> D:\jisuanji\repos\windows\AVLTree\x64\Debug\AVLTree and RBTree.exe
+D:\jisuanji\repos\windows\AVLTree\AVLTree\RBTree - 副本.hpp(312,3): error C3861: “cout”: 找不到标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\RBTree - 副本.hpp(374,2): message : 查看对正在编译的 类 模板 实例化“RBTree<K,T,KeyOfT>”的引用
+D:\jisuanji\repos\windows\AVLTree\AVLTree\RBTree - 副本.hpp(312,57): error C3861: “endl”: 找不到标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\RBTree - 副本.hpp(312,3): error C2065: “cout”: 未声明的标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\RBTree - 副本.hpp(312,57): error C2065: “endl”: 未声明的标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\RBTree - 副本.hpp(323,5): error C2065: “cout”: 未声明的标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\RBTree - 副本.hpp(323,5): error C3861: “cout”: 找不到标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\RBTree - 副本.hpp(323,94): error C3861: “endl”: 找不到标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\RBTree - 副本.hpp(332,4): error C2065: “cout”: 未声明的标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\RBTree - 副本.hpp(332,4): error C3861: “cout”: 找不到标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\RBTree - 副本.hpp(332,57): error C3861: “endl”: 找不到标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\RBTree - 副本.hpp(323,94): error C2065: “endl”: 未声明的标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\RBTree - 副本.hpp(332,57): error C2065: “endl”: 未声明的标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(12,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(14,1): message : 查看对正在编译的 类 模板 实例化“sxj::map<K,V>::MapKeyOfT”的引用
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(36,3): message : 查看对正在编译的 类 模板 实例化“sxj::map<K,V>”的引用
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(12,34): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(18,35): error C2039: "pair": 不是 "std" 的成员
+D:\jisuanji\repos\windows\AVLTree\AVLTree\predefined C++ types (compiler internal)(347,11): message : 参见“std”的声明
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(18,35): error C2065: “pair”: 未声明的标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(18,40): error C2059: 语法错误:“const”
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(18,20): error C2062: 意外的类型“unknown-type”
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(18,65): error C2039: "iterator": 不是 "`global namespace'" 的成员
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(18,82): error C2238: 意外的标记位于“;”之前
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(20,12): error C3646: “begin”: 未知重写说明符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(20,17): error C2059: 语法错误:“(”
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(21,3): error C2334: “{”的前面有意外标记；跳过明显的函数体
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(25,12): error C3646: “end”: 未知重写说明符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(25,15): error C2059: 语法错误:“(”
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(26,3): error C2334: “{”的前面有意外标记；跳过明显的函数体
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(30,26): error C2039: "pair": 不是 "std" 的成员
+D:\jisuanji\repos\windows\AVLTree\AVLTree\predefined C++ types (compiler internal)(347,11): message : 参见“std”的声明
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(30,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(30,30): error C2143: 语法错误: 缺少“,”(在“<”的前面)
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(35,18): error C2039: "pair": 不是 "std" 的成员
+D:\jisuanji\repos\windows\AVLTree\AVLTree\predefined C++ types (compiler internal)(347,11): message : 参见“std”的声明
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(35,18): error C2065: “pair”: 未声明的标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(35,23): error C2059: 语法错误:“const”
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(35,34): error C2059: 语法错误:“,”
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(35,49): error C2238: 意外的标记位于“;”之前
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(14,12): error C3861: “kv”: 找不到标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(14,12): error C2065: “kv”: 未声明的标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(32,11): error C3861: “_t”: 找不到标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(32,21): error C3861: “kv”: 找不到标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(32,11): error C2065: “_t”: 未声明的标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(32,21): error C2065: “kv”: 未声明的标识符
+D:\jisuanji\repos\windows\AVLTree\AVLTree\mymap.hpp(43,13): error C3861: “make_pair”: 找不到标识符

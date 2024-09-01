@@ -124,7 +124,7 @@ void ADjustDown(int* a, int n, int root)
 		{
 			++child;
 		}
-
+		//父节点和子节点比较 子节点比我大就交换 否则break
 		if (a[parent] < a[child])
 		{
 			Swap(&a[child] ,&a[parent]);
