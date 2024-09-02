@@ -15,13 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mymap.hpp">
+    <ClInclude Include="Map.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Set.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RBTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="myset.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="RBTree.h">
+    <ClInclude Include="mymap.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RBTree.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
