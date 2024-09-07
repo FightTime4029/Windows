@@ -1,0 +1,5 @@
+﻿  FileCompressHuffman.cpp
+D:\jisuanji\repos\windows\HuffmanTree\HuffmanTree\FileCompressHuffman.cpp(114,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\jisuanji\repos\windows\HuffmanTree\HuffmanTree\FileCompressHuffman.cpp(231,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\jisuanji\repos\windows\HuffmanTree\HuffmanTree\FileCompressHuffman.cpp(234,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  HuffmanTree.vcxproj -> D:\jisuanji\repos\windows\HuffmanTree\x64\Debug\HuffmanTree.exe
